@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API</title>
+    <link rel="shortcut icon" href="img/weather.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+
+    <div class="card">
+        <h1 class="headline">Weather App</h1>
+        <div class="searchCard">
+            <input type="text" class="searchBox" placeholder="Enter city name...">
+            <button class="searchBtn"><i class="ri-search-line"></i></button>
+        </div>
+        <div class="weatherCard">
+            <div class="weatherIcon">
+                <img id="weatherIcon" src="https://openweathermap.org/img/wn/10d@2x.png" alt=""><h1 class="temp">23°C</h1>
+            </div>
+            <div class="weatherInfo">
+
+                <h3><b>Location :</b> <span class="locationDesc">London</span></h3>
+                
+                <h3><b>Weather :</b> <span class="weatherDesc">Light Rain Showers</span></h3>
+
+                <h3><i class="ri-water-percent-line"></i> Humiditiy: <span class="humidity">88%</span></h3>
+
+                <h3><i class="ri-windy-line"></i> Wind: <span class="wind">24 km/h</span></h3>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="main.js"></script>
+</body>
+</html>
